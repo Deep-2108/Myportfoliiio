@@ -7,7 +7,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
 import Footer from "../components/Footer";
-
+import ScrollMarquee from "../components/ScrollMarquee";
 function Home(){
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
@@ -22,6 +22,7 @@ function Home(){
       <main>
         <HeroSection />
         <AboutSection />
+        {/* <ScrollMarquee /> */}
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />
