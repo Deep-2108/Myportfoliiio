@@ -109,7 +109,7 @@ export const ProjectsSection = () => {
           </a>
         </div>
       </div>
-          <GuitarEffect/>
+          {/* <GuitarEffect/> */}
     </section>
   );
 };

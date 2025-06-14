@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="py-4 px-4 bg-card relative border-t border-border mt-12 pt-8 flex flex-wrap justify-between items-center">
       {" "}
-      <div className="text-2xl absolute bottom-8 w-screen">
+      <div className=" absolute bottom-0 w-screen">
         <GuitarEffect/>
       </div>
       
